@@ -1,73 +1,55 @@
 body { font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777;
-    background-color: #777;
-    text-align: center;
+    background: #777;
     width: 960px;
     font-size: 18px;
-    
+    text-align: center;
     }
     
     header, nav, section, aside, footer{
     background: #ebebeb;
-    padding: 20px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    
     }
     
     
-    article{
-    background: #777;
+    #article{
+    background:#777;
     color: #ebebeb;
-    line-height: 75px;
-    
-    
-    
-    
-    
+    padding: 5px;
     }
     
-    header, nav, footer{
-    line-height: 35px;
-    margin: 15px;
-    }
-    
-    section, aside{
-    line-height: 100px;
-    width: 495px
-    }
-    
-    
-    
-    aside{
-    float: right;
-    width: 400px;
-    line-height: 300px;
-    margin-right: 15px;
-    clear: both;
-    margin-bottom: 50px;
-    
-    }
-    
-    section{
-       width: 400px;
-      height: 70px;
-      margin-right: 20px;
-      margin-left: 20px;
-      position: fixed;
-    }
 
-    h1, p, {
-    background-color: white;
-    width: 350px;
-    }
-    
-    footer{
-    margin-top: 25px;
-    clear: both;
-    
-    }
     h1, p{
-    background-color: #ebebeb;
-    line-height: 60px;
-    width: 350px;
-    margin-left: 75px}
+color: #777;
+background: #ebebeb;
+padding: 5px;
+}
+
+header, nav, footer{
+width: 900px;
+padding: 30px;
+margin-bottom: 15px;
+}
+
+section, aside{
+width: 50%;
+}
+
+aside{
+float: right;
+width: 45%;
+height: 233px;
+}
+
+section{
+}
+
+footer{
+clear: both;
+margin-top: 40px;
+overflow: auto 0;
+}
+
+#section{
+padding: 10px;
+}
